@@ -8,7 +8,7 @@ Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
 Entorno: Servidores remotos de TripleTen.
 Protocolo: REST (JSON).
 ## 🎯 Escenarios de Prueba Clave
-Validación de Métodos HTTP: Ejecución de solicitudes GET, POST, PUT y DELETE.
+Validación de Métodos HTTP: Ejecución de solicitudes POST.
 Códigos de Estado: Verificación de respuestas correctas (200 OK, 201 Created) y manejo de errores (400 Bad Request, 404 Not Found).
 Validación de Body (Cuerpo de respuesta): Comprobación de que los datos recibidos en formato JSON coinciden con la base de datos.
 Pruebas de Regresión: Creación de colecciones para verificar que los cambios nuevos no afecten funcionalidades existentes.
