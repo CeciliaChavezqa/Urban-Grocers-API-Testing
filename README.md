@@ -1,9 +1,10 @@
 # Urban-Grocers-API-Testing
 🔗 Proyecto de QA: API Testing - Urban Grocers
 ## 📝 Descripción
-Este proyecto consistió en la verificación y validación de los servicios backend de la plataforma "Urban Grocers". Utilizando Postman, realicé pruebas exhaustivas en los endpoints para asegurar que la comunicación entre el cliente y el servidor sea precisa, segura y cumpla con las reglas de negocio.
+Este proyecto consistió en la verificación y validación de los servicios backend de la plataforma "Urban Grocers". Utilizando Postman, realicé pruebas exhaustivas en los endpoints para asegurar que la comunicación entre el cliente y el servidor sea precisa, segura y cumpla con las reglas de negocio. Reporte errores de manera clara en Jira.
 ## 🛠️ Tecnologías y Herramientas
 Herramienta de Testing: Postman.
+Herramienta de Reporte de errores: Jira.
 Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
 Entorno: Servidores remotos de TripleTen.
 Protocolo: REST (JSON).
@@ -17,6 +18,7 @@ Dentro de este repositorio encontrarás:
 Colección de Postman (JSON): Archivo listo para importar y ejecutar.
 Documentación de la API: Detalles de los parámetros requeridos y las respuestas esperadas.
 Capturas de Resultados: Imágenes de los tests pasando exitosamente (Test Results: Pass).
+Reporte de errores: Reporte claro y preciso de cada error en Jira. 
 
 <img width="946" height="345" alt="image" src="https://github.com/user-attachments/assets/7384d6ad-6d94-4d44-bebf-f7c31daf064a" />
 <img width="922" height="346" alt="image" src="https://github.com/user-attachments/assets/4335940c-fd22-4a4b-9f4a-733175d13fcd" />
