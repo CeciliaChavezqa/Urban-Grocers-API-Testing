@@ -1,18 +1,48 @@
-# Urban-Grocers-API-Testing
+# Urban-Grocers-API-Testing 
 🔗 Proyecto de QA: API Testing - Urban Grocers
 ## 📝 Descripción
-Este proyecto consistió en la verificación y validación de los servicios backend de la plataforma "Urban Grocers". Utilizando Postman, realicé pruebas exhaustivas en los endpoints para asegurar que la comunicación entre el cliente y el servidor sea precisa, segura y cumpla con las reglas de negocio. Reporte errores de manera clara en Jira.
+Urban Grocers es un ejemplo de plataforma interactiva de comercio electrónico enfocada en la entrega de productos por catálogo y kits preparados. El objetivo principal de este proyecto fue realizar pruebas de backend (API Testing) sobre los microservicios críticos de la plataforma para asegurar la integridad de las operaciones de negocio, la correcta validación de esquemas de datos y el funcionamiento óptimo de la lógica de entregas y kits.
+
 ## 🛠️ Tecnologías y Herramientas
-Herramienta de Testing: Postman.
-Herramienta de Reporte de errores: Jira.
+Postman: Utilizado para la construcción, ejecución, pruebas parametrizadas y validación de respuestas de los endpoints de la API (JSON, XML y SOAP).
 Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
+Documentación de la API: Documentación oficial de Urban Grocers[cite: 1].
+Jira: Gestión de incidencias, creación de reportes de errores (Bug Reports) detallados con severidad, pasos para reproducir y resultados esperados/obtenidos.
+Excel: Diseño estructurado de Casos de Prueba (pruebas de límites, clases de equivalencia y flujos negativos/positivos).
 Entorno: Servidores remotos de TripleTen.
 Protocolo: REST (JSON).
-## 🎯 Escenarios de Prueba Clave
-Validación de Métodos HTTP: Ejecución de solicitudes POST.
-Códigos de Estado: Verificación de respuestas correctas (200 OK, 201 Created) y manejo de errores (400 Bad Request, 404 Not Found).
-Validación de Body (Cuerpo de respuesta): Comprobación de que los datos recibidos en formato JSON coinciden con la base de datos.
-Pruebas de Regresión: Creación de colecciones para verificar que los cambios nuevos no afecten funcionalidades existentes.
 
-**Ingeniera en Tecnología Automotriz | QA Engineer**
+## 🔍 ¿Qué se probó? (Alcance)
+El proyecto se centró en la validación exhaustiva de dos módulos principales del backend:
+
+🛒1. Gestión de Kits (/api/v1/kits): 
+
+Creación, consulta, modificación (renombrado y actualización de productos) y eliminación de kits.
+
+Validación de restricciones en los nombres de los kits (solo letras latinas, espacios y guiones, longitud de 2 a 15 caracteres) y límite de artículos (máximo 30).
+
+🛒2. Servicios de Entrega y Logística (/api/v1/couriers, /api/v1/orders, etc.):
+
+Verificación de disponibilidad de servicios de entrega automáticos y manuales (Speedy, Fast Delivery, Food Service, Order and Go, etc.).
+
+Validación del cálculo de costos internos (host delivery cost) y para el cliente (client delivery cost) en función del peso total, cantidad de artículos y horarios de operación.
+
+Reglas de negocio para envíos automáticos (costo fijo de $5 USD por exceso de peso, cantidad o montos menores a $7 USD).
+
+## 📋 Tipos de Casos Cubiertos
+Se diseñó e implementó una suite de pruebas abarcando:
+
+Pruebas Positivas (Happy Path): Verificación de que el sistema responde con códigos 200/201 y la estructura de datos correcta ante solicitudes válidas de kits y consultas de couriers.
+
+Pruebas Negativas: Validación del manejo de errores ante datos fuera de rango (ej. nombres de kits con caracteres especiales o longitudes inválidas, exceso de peso permitido por los couriers, formatos incorrectos).
+
+Pruebas de Límites (Boundary Value Analysis): Evaluación estricta en los umbrales de peso y cantidad de artículos por pedido (ej. límites exactos para cobros de envíos automáticos y tarifas de transportistas específicos).
+
+## 📂 Evidencias para Revisar
+
+Casos de Prueba
+
+## 👤 Autor
+
+**Cecilia Mena Chavez | Ingeniera en Tecnología Automotriz | QA Engineer**
 "Transformando la precisión técnica en software confiable."
