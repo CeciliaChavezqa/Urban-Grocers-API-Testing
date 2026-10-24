@@ -44,9 +44,19 @@ Pruebas Negativas: Validación del manejo de errores ante datos fuera de rango (
 
 Pruebas de Límites (Boundary Value Analysis): Evaluación estricta en los umbrales de peso y cantidad de artículos por pedido (ej. límites exactos para cobros de envíos automáticos y tarifas de transportistas específicos).
 
+## 💡 Nuevas competencias adquiridas 
+Profundizar en el análisis de requerimientos de backend complejos para traducirlos en matrices de pruebas estructuradas.
+
+Manejo de distintos formatos de intercambio de datos requeridos por proveedores logísticos externos dentro de una API (JSON, XML).
+
+Documentación de incidencias de forma técnica y profesional en herramientas de seguimiento como Jira, facilitando la comunicación asertiva con el equipo de desarrollo.
+
 ## 📂 Evidencias para Revisar
 
 Casos de Prueba: **"Proyecto para el 4.º Sprint_ Ejercicio.xlsx"**
+
+<img width="1865" height="672" alt="image" src="https://github.com/user-attachments/assets/7fb38f16-fc54-4724-999c-5fa28129a187" />
+
 
 ## 👤 Autor
 
