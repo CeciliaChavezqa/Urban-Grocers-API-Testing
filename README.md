@@ -8,7 +8,7 @@ Postman: Utilizado para la construcción, ejecución, pruebas parametrizadas y v
 
 Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
 
-Documentación de la API: Documentación oficial de Urban Grocers[cite: 1].
+Documentación de la API: Documentación oficial de Urban Grocers.
 
 Jira: Gestión de incidencias, creación de reportes de errores (Bug Reports) detallados con severidad, pasos para reproducir y resultados esperados/obtenidos.
 
