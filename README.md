@@ -4,7 +4,7 @@
 Urban Grocers es un ejemplo de plataforma interactiva de comercio electrónico enfocada en la entrega de productos por catálogo y kits preparados. El objetivo principal de este proyecto fue realizar pruebas de backend (API Testing) sobre los microservicios críticos de la plataforma para asegurar la integridad de las operaciones de negocio, la correcta validación de esquemas de datos y el funcionamiento óptimo de la lógica de entregas y kits.
 
 ## 🛠️ Tecnologías y Herramientas
-Postman: Utilizado para la construcción, ejecución, pruebas parametrizadas y validación de respuestas de los endpoints de la API (JSON, XML y SOAP).
+Postman: Utilizado para la construcción, ejecución, pruebas parametrizadas y validación de respuestas de los endpoints de la API.
 
 Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
 
