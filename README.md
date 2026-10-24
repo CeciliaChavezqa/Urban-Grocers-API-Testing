@@ -46,7 +46,7 @@ Pruebas de Límites (Boundary Value Analysis): Evaluación estricta en los umbra
 
 ## 📂 Evidencias para Revisar
 
-Casos de Prueba
+Casos de Prueba: **"Proyecto para el 4.º Sprint_ Ejercicio.xlsx"**
 
 ## 👤 Autor
 
