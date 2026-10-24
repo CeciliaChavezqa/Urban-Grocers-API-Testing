@@ -5,11 +5,17 @@ Urban Grocers es un ejemplo de plataforma interactiva de comercio electrónico e
 
 ## 🛠️ Tecnologías y Herramientas
 Postman: Utilizado para la construcción, ejecución, pruebas parametrizadas y validación de respuestas de los endpoints de la API (JSON, XML y SOAP).
+
 Lenguaje de Scripting: JavaScript (para tests automáticos dentro de Postman).
+
 Documentación de la API: Documentación oficial de Urban Grocers[cite: 1].
+
 Jira: Gestión de incidencias, creación de reportes de errores (Bug Reports) detallados con severidad, pasos para reproducir y resultados esperados/obtenidos.
+
 Excel: Diseño estructurado de Casos de Prueba (pruebas de límites, clases de equivalencia y flujos negativos/positivos).
+
 Entorno: Servidores remotos de TripleTen.
+
 Protocolo: REST (JSON).
 
 ## 🔍 ¿Qué se probó? (Alcance)
